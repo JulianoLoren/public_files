@@ -1,0 +1,34 @@
+name: File Loader
+
+on:
+  repository_dispatch:
+    types: download_file
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v4
+
+    - name: Remove existing ZIP files
+      run: |
+        find . -name "*.zip" -type f -delete
+        find . -name "*.MWD" -type f -delete
+        find . -name "*.1" -type f -delete
+          
+    - name: Load files from URLs
+      run: |
+        wget "http://banggia.dautuxuhuong.com/datafeed/list.php"  -O  list.txt
+        wget -i list.txt
+
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Update file from URL"
+        git push
