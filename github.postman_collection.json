@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "5959130c-9b00-4fcd-a389-58e2db2565f4",
+		"name": "github",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1682595"
+	},
+	"item": [
+		{
+			"name": "download_file",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/vnd.github+json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					},
+					{
+						"key": "X-GitHub-Api-Version",
+						"value": "2022-11-28"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " { \"event_type\": \"download_file\", \"client_payload\": { \"file_name\":\"m_20230526_16_38_09_1685093889.zip\", \"file_url\": \"http://hanoi.apichungkhoan.com/cache/m_20230526_16_38_09_1685093889.zip\" } }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.github.com/repos/JulianoLoren/public_files/dispatches",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"repos",
+						"JulianoLoren",
+						"public_files",
+						"dispatches"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
