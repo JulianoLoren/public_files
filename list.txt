@@ -111,6 +111,7 @@ http://hanoi.haonheo.com/cache/SFG.MWD
 http://hanoi.haonheo.com/cache/HNX.MWD
 http://hanoi.haonheo.com/cache/^IXBK.MWD
 http://hanoi.haonheo.com/cache/DTK.MWD
+http://hanoi.haonheo.com/cache/MZG.MWD
 http://hanoi.haonheo.com/cache/BSI.MWD
 http://hanoi.haonheo.com/cache/AGP.MWD
 http://hanoi.haonheo.com/cache/CVNM2013.MWD
@@ -1482,6 +1483,7 @@ http://hanoi.haonheo.com/cache/CMSN1903.MWD
 http://hanoi.haonheo.com/cache/SPH.MWD
 http://hanoi.haonheo.com/cache/^NBI.MWD
 http://hanoi.haonheo.com/cache/LKW.MWD
+http://hanoi.haonheo.com/cache/BGE.MWD
 http://hanoi.haonheo.com/cache/CMBB2004.MWD
 http://hanoi.haonheo.com/cache/MEL.MWD
 http://hanoi.haonheo.com/cache/CMBB1905.MWD
@@ -2379,7 +2381,7 @@ http://hanoi.haonheo.com/cache/CFPT2014.MWD
 http://hanoi.haonheo.com/cache/BTB.MWD
 http://hanoi.haonheo.com/cache/CGMD2001.MWD
 http://hanoi.haonheo.com/cache/GGS.MWD
-http://hanoi.haonheo.com/cache/e_20250217_16_30_33_1739784633.zip
-http://hanoi.haonheo.com/cache/i_20250217_16_30_33_1739784633.zip
-http://hanoi.haonheo.com/cache/m_20250217_16_30_33_1739784633.zip
-http://hanoi.haonheo.com/cache/m1_20250217_16_30_33_1739784633.zip
+http://hanoi.haonheo.com/cache/e_20250217_22_51_14_1739807474.zip
+http://hanoi.haonheo.com/cache/i_20250217_22_51_14_1739807474.zip
+http://hanoi.haonheo.com/cache/m_20250217_22_51_14_1739807474.zip
+http://hanoi.haonheo.com/cache/m1_20250217_22_51_14_1739807474.zip
